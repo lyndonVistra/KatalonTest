@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://docs.katalon.com/docs/')
 
+WebUI.delay(10)
+
