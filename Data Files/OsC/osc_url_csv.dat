@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>08812952-f215-424d-97bb-811b91697ada</dataFileGUID>
-   <dataSourceUrl>../../../../katalonpoc/TestData/OsC_Environment.csv</dataSourceUrl>
+   <dataSourceUrl>TestData/OsC_Environment.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
