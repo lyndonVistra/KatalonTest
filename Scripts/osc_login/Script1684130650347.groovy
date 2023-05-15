@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://docs.katalon.com/docs/')
+WebUI.openBrowser(findTestData('OsC/osc_url_csv').getValue(1, 1))
 
 WebUI.delay(10)
 
