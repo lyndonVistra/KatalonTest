@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(findTestData('OsC/osc_url_csv').getValue(1, 1))
 
-WebUI.navigateToUrl(findTestData('OsC/osc_url_csv').getValue(1, 1))
+WebUI.delay(10)
 
-Thread.sleep(3000)
+WebUI.switchToFrame(findTestObject(null), 1)
 
-autoit_prj = 'C:\\Users\\admin.ldsouza\\git\\KatalonTest\\AutoIT\\osc_internallogin.exe'
+WebUI.delay(2)
 
-Runtime.getRuntime().exec(autoit_prj)
+Header = WebUI.getAlertText(FailureHandling.STOP_ON_FAILURE)
 
-Thread.sleep(3000)
+println('alert text is : ' + Header)
 

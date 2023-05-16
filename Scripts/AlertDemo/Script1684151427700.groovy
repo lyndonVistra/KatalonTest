@@ -17,5 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://docs.katalon.com/docs/')
+WebUI.openBrowser('')
+
+autoit_prj = "C:\\Users\\admin.aisbhoir\\git\\KatalonTest\\WinAuth1.exe"
+Runtime.getRuntime().exec(autoit_prj)
+Thread.sleep(3000);
+
+WebUI.navigateToUrl('https://osc-stg.vistra.com/web/forceadfs')
+
 
