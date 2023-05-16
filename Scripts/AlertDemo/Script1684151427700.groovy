@@ -17,15 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(findTestData('OsC/osc_url_csv').getValue(1, 1))
+WebUI.openBrowser('')
 
-WebUI.delay(10)
+autoit_prj = "C:\\Users\\admin.aisbhoir\\git\\KatalonTest\\WinAuth1.exe"
+Runtime.getRuntime().exec(autoit_prj)
+Thread.sleep(3000);
 
-WebUI.switchToFrame(findTestObject(null), 1)
+WebUI.navigateToUrl('https://osc-stg.vistra.com/web/forceadfs')
 
-WebUI.delay(2)
-
-Header = WebUI.getAlertText(FailureHandling.STOP_ON_FAILURE)
-
-println('alert text is : ' + Header)
 
