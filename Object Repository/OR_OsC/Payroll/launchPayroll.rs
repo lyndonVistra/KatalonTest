@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>launchPayroll</name>
+   <tag></tag>
+   <elementGuidId>99347178-967b-4912-85aa-270a99ff4bc2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Launch Payroll']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1dab3abc-bc7c-4e95-bbb8-2ea500d347ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ed8739e3-9525-44fe-bef7-f27d619ca600</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Launch Payroll</value>
+      <webElementGuid>340dd522-6d8f-4589-a4ef-406b12b2d289</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>headerButtonClicked(button)</value>
+      <webElementGuid>a32fe4f8-802a-4b98-9291-a9a6230b2c8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>external-link-button ui-button ui-widget ui-state-default ui-corner-all</value>
+      <webElementGuid>8f1f325e-34ee-41b6-84a3-f0c8ec684a27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d95e2118-b029-494d-89f1-080986fb85b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;users&quot;)/div[@class=&quot;localarea&quot;]/div[@class=&quot;contentWrapper&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;bl10 pull-left ng-scope&quot;]/div[@class=&quot;pageHeader&quot;]/div[@id=&quot;correct_button&quot;]/input[@class=&quot;external-link-button ui-button ui-widget ui-state-default ui-corner-all&quot;]</value>
+      <webElementGuid>20290458-38a5-4450-8a57-4e20be9042ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Launch Payroll']</value>
+      <webElementGuid>7a257d39-c95b-4b41-980e-d66087aaed92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='correct_button']/input)[2]</value>
+      <webElementGuid>833dc217-5293-4b22-9cf6-35cfdd2dc33c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[2]/input</value>
+      <webElementGuid>5c11f758-9b27-4e9d-bce0-6e3e802afb8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button']</value>
+      <webElementGuid>fe582419-3157-4fc2-9054-de4c3570f080</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

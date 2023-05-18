@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_PAYROLL</name>
+   <tag></tag>
+   <elementGuidId>f0abd1ac-e71b-452c-8958-9b8e2ab5bb88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.ui-corner-top.ng-scope.selected</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='service_nav']/li[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>09c00567-09d1-40ac-b061-73f4dbd001d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-repeat</name>
+      <type>Main</type>
+      <value>link in links</value>
+      <webElementGuid>8af0f0ab-dbbe-4254-988d-76021b10a23d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-corner-top ng-scope selected</value>
+      <webElementGuid>eeefeb01-0c12-40b6-bed4-16138aa6ff61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'selected': link.isOverview }</value>
+      <webElementGuid>af57b209-a51b-4cdd-aa60-2ffb074d702b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>selectSecondaryTab(link)</value>
+      <webElementGuid>a6d5614d-51d4-487c-8e0a-fcfae7b20930</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+		PAYROLL
+	</value>
+      <webElementGuid>1afac151-2257-45d2-8d56-0c005aaba410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;service_nav&quot;)/li[@class=&quot;ui-corner-top ng-scope selected&quot;]</value>
+      <webElementGuid>e3f87457-61b7-4537-afb2-7b67fd1b2910</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='service_nav']/li[3]</value>
+      <webElementGuid>2e26ee2c-8b72-4bbb-835a-02fd3b886243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FINANCIALS'])[1]/following::li[1]</value>
+      <webElementGuid>7572d9b0-9091-41d1-8fbf-5bbd93421d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DASHBOARD'])[1]/following::li[2]</value>
+      <webElementGuid>0e3923a6-877a-4832-b660-034172641fd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EXPENSES'])[1]/preceding::li[1]</value>
+      <webElementGuid>b9a10eb9-6d2b-4830-955b-61ea43385a5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[3]</value>
+      <webElementGuid>a8ec92b9-e596-4cc5-9b19-47b18b7cb36a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '
+		PAYROLL
+	' or . = '
+		PAYROLL
+	')]</value>
+      <webElementGuid>d88a2602-f3ea-4a91-b21e-90eaf219bb1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

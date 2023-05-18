@@ -4,4 +4,34 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('OsC/osc_url_csv').getValue(1, 2)</initValue>
+      <name>ext_baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('OsC/osc_url_csv').getValue(2, 2)</initValue>
+      <name>ext_usrName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('OsC/osc_url_csv').getValue(3, 2)</initValue>
+      <name>ext_usrPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>waitPresentTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TestData/WinAuth1.exe'</initValue>
+      <name>autoit_authDetails</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('OsC/osc_url_csv').getValue(1, 1)</initValue>
+      <name>internalUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

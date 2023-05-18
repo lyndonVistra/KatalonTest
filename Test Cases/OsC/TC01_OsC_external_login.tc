@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_OsC_external_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f6b0626-2ee5-43f8-adc3-433c55ac31af</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f49cafa1-d521-4ff6-befa-ef985f033e1d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bad158dd-3d30-4b40-9d19-c3522702d4fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d5e2b7e-cebd-472a-af74-16a9a04cd111</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('OsC/osc_url_csv').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>f49cafa1-d521-4ff6-befa-ef985f033e1d</id>
+      <masked>false</masked>
+      <name>externalUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('OsC/osc_url_csv').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>bad158dd-3d30-4b40-9d19-c3522702d4fc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('OsC/osc_url_csv').getValue(3, 2)</defaultValue>
+      <description></description>
+      <id>1d5e2b7e-cebd-472a-af74-16a9a04cd111</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

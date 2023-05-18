@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_OsC_internal_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a4987af-57d8-4a9d-bc61-9e116a19f89b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c1c5a40-5737-42c9-b3c8-0c7b6164b801</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79f3e762-ee1f-4945-9208-600d6943ade4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TestData/WinAuth1.exe'</defaultValue>
+      <description></description>
+      <id>9c1c5a40-5737-42c9-b3c8-0c7b6164b801</id>
+      <masked>false</masked>
+      <name>autoit_authdetails</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('OsC/osc_url_csv').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>79f3e762-ee1f-4945-9208-600d6943ade4</id>
+      <masked>false</masked>
+      <name>internalUrl</name>
+   </variable>
+</TestCaseEntity>

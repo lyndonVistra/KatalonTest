@@ -1,2 +1,3 @@
-base url
+base url,username,password
 https://osc-stg.vistra.com/web/forceadfs
+https://osc-stg.vistra.com/web/forcests,automationadmin,Password0

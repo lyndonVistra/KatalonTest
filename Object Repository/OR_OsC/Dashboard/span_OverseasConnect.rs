@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_OverseasConnect</name>
+   <tag></tag>
+   <elementGuidId>d578de50-bdbc-4a9a-a8a3-f521c29c6d9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#connectLogo > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='connectLogo']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7dcddf29-6835-4463-9dac-811bee83847f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> OverseasConnect</value>
+      <webElementGuid>824c30b6-4349-4695-8470-56dad2cb48a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;connectLogo&quot;)/span[1]</value>
+      <webElementGuid>6728a4ca-f8da-4298-b265-aabc495fd954</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='connectLogo']/span</value>
+      <webElementGuid>4cb0f533-3778-45dc-b902-8905b29eade2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GLOBAL OVERVIEW'])[1]/preceding::span[1]</value>
+      <webElementGuid>3abd3168-d8f3-47f3-bd70-438a36283aa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OverseasConnect']/parent::*</value>
+      <webElementGuid>495d5581-2229-428e-8229-c90fcbf6e87c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/span</value>
+      <webElementGuid>650c34bb-c83c-4899-b126-8fe580c99e3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' OverseasConnect' or . = ' OverseasConnect')]</value>
+      <webElementGuid>1cae4bdf-f3b7-4ba1-9e29-399bad838457</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

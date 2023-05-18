@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchentityicon</name>
+   <tag></tag>
+   <elementGuidId>51df4bad-a689-4068-8b45-2f4d43569991</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.icon.icon-down.caretDown.alignSearchEntityIcon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='space']/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5d11b776-7fc0-43fc-b081-7de9ca8c61c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-down caretDown alignSearchEntityIcon</value>
+      <webElementGuid>229c38e9-b5e9-4a1d-9262-7e07fc2f3311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;space&quot;)/a[@class=&quot;selectPadding&quot;]/span[@class=&quot;icon icon-down caretDown alignSearchEntityIcon&quot;]</value>
+      <webElementGuid>571c511c-c8cb-42ca-8176-0e39fc2e1df8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='space']/a/span</value>
+      <webElementGuid>81c030f9-9e1c-491d-8a4b-d537dff24ee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>46a1a8b1-632f-42b9-acd8-9c6d0b32b3a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
