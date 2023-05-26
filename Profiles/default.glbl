@@ -34,4 +34,9 @@
       <initValue>findTestData('OsC/osc_url_csv').getValue(1, 1)</initValue>
       <name>internalUrl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>payrollDefName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

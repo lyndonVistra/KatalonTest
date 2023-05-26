@@ -16,9 +16,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker as Faker
 
-CustomKeywords.'com.OsC.Login.loginIntoApplicationExternal'(GlobalVariable.ext_baseUrl,GlobalVariable.ext_usrName,GlobalVariable.ext_usrPassword)
+WebUI.openBrowser('')
 
-WebUI.delay(10)
+WebUI.navigateToUrl('https://osc-stg.vistra.com/web/')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Object Repository/OR_OsC/Payroll/payrollselect_arrow'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+

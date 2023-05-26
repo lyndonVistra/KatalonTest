@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_OsC_PAT_Launch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>189d0d70-abab-4c86-b323-32d02653c3ce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c14db01-9acc-4c82-ab57-f90222d99892</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\admin.aisbhoir\\\\git\\\\KatalonTest\\\\TestData\\\\HSP_US_QA2 Test Payroll_Calendar.csv'</defaultValue>
+      <description></description>
+      <id>0c14db01-9acc-4c82-ab57-f90222d99892</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+</TestCaseEntity>

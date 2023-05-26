@@ -9,6 +9,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_OsC/Dashboard/span_OverseasConnect_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_OsC/Dashboard/span_OverseasConnect",
+      "brokenLocator": "//div[@id\u003d\u0027connectLogo\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027connectLogo\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_OsC/Dashboard/span_OverseasConnect_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Payroll/span_Payroll_select2-arrow ui-select-toggle",
+      "brokenLocator": "//body[@id\u003d\u0027app\u0027]/div/div/div/div/div[3]/div/form/ul/li/div[3]/div/a/span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//body[@id\u003d\u0027app\u0027]/div/div/div/div/div[3]/div/form/ul/li/div[3]/div/a/span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Payroll/span_Payroll_select2-arrow ui-select-toggle_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_OsC/Payroll/payrollselect_arrow",
+      "brokenLocator": "//div[@class\u003d\u0027relative-pos topm10\u0027][2]//span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Payroll\u0027])[2]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_OsC/Payroll/payrollselect_arrow_neighbor.png"
     }
   ]
 }

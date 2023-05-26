@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.login.Login.loginIntoApplicationInternal'(GlobalVariable.internalUrl, GlobalVariable.autoit_authDetails)
+CustomKeywords.'com.OsC.Login.loginIntoApplicationInternal'(GlobalVariable.internalUrl, GlobalVariable.autoit_authDetails)
 WebUI.delay(20)
 WebUI.waitForElementPresent(findTestObject('Object Repository/OR_OsC/Dashboard/span_OverseasConnect'), 0)
 //WebUI.closeBrowser()
