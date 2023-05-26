@@ -17,19 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'com.login.Login.loginIntoApplicationInternal'(GlobalVariable.internalUrl, GlobalVariable.autoit_authDetails)
+/*CustomKeywords.'com.OsC.Login.loginIntoApplicationInternal'(GlobalVariable.internalUrl, GlobalVariable.autoit_authDetails)
 WebUI.delay(20)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/OR_OsC/Dashboard/span_OverseasConnect'), 30)
-WebUI.delay(10)
+WebUI.delay(10)*/
+println('launch payroll with payroll name :  ' + GlobalVariable.payrollDefName)
 
 WebUI.navigateToUrl('https://osc-stg.vistra.com/web/#/company/596/entity/1893/overview')
+
 WebUI.delay(10)
 
 WebUI.click(findTestObject('OR_OsC/Dashboard/li_PAYROLL'))
+
 WebUI.delay(10)
 
 WebUI.waitForElementPresent(findTestObject('OR_OsC/Payroll/launchPayroll'), 10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OR_OsC/Payroll/launchPayroll'))
+
+WebUI.callTestCase(findTestCase('OsC/TC06_OsC_Payroll_Add Employee'), [:], FailureHandling.STOP_ON_FAILURE)
 

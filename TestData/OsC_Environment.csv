@@ -1,3 +1,4 @@
-base url,username,password
+base url,username,password,PAT url
 https://osc-stg.vistra.com/web/forceadfs
 https://osc-stg.vistra.com/web/forcests,automationadmin,Password0
+,,,https://osc-stg.vistra.com/payrolladministration/#/EntityConfiguration

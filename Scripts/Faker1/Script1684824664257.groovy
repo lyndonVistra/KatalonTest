@@ -16,9 +16,47 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker as Faker
 
-CustomKeywords.'com.OsC.Login.loginIntoApplicationExternal'(GlobalVariable.ext_baseUrl,GlobalVariable.ext_usrName,GlobalVariable.ext_usrPassword)
+Faker faker = new Faker()
 
-WebUI.delay(10)
+String name = faker.name().fullName( // Miss Samanta Schmidt
+	)
 
-WebUI.closeBrowser()
+String firstName = faker.name().firstName( // Emory"
+	)
+
+String lastName = faker.name().lastName( // Barton
+	)
+String DOB = CustomKeywords.'com.Common.CommonMethods.getDateStringForDateBefore'()
+
+String streetAddress = faker.address().streetAddress( // 60018 Sawayn Brooks Suite 449
+	)
+String zipCode = faker.address().zipCode()
+String city = faker.address().city()
+
+
+String Account_name = 'VistraQA-' + faker.address().zipCode()
+
+String Email_address = ((firstName + '.') + lastName) + '@vistraqatest.com'
+
+
+String abc = faker.regexify("[1-9][1-9]")
+
+System.out.println(abc)
+System.out.println('DOB   === ' + DOB)
+System.out.println(Email_address)
+System.out.println(firstName)
+System.out.println(lastName)
+System.out.println(streetAddress)
+System.out.println(Account_name)
+System.out.println(zipCode)
+System.out.println(city)
+
+empid = CustomKeywords.'com.Common.CommonMethods.getEmployeeId'().toString()
+
+System.out.println('empid ::: '+ empid)
+
+
+
+
